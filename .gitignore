@@ -1,0 +1,10 @@
+/health-check-pack-dotnet-test/bin/Release/net6.0/ru/*.dll
+*.dll
+*.cache
+*.targets
+net6.0
+Debug
+DesignTimeBuild
+v17
+Release
+obj
