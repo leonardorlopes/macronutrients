@@ -31,4 +31,4 @@ MAX_HEIGHT = 500
 
 ## Tests
 
-<img src="macronutrients\img\coverage.png" alt="Tests Coverage">
+<img src="img\coverage.png" alt="Tests Coverage">
