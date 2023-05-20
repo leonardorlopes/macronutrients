@@ -18,11 +18,11 @@ The project uses the technologies:
 
 ## Index
 
-=> 0 < 18.5  => MAGREZA
->= 18.5 < 25 => NORMAL
->= 25 < 30 => SOBREPESO
->= 30 < 40 => OBESIDADE
-> 40 => OBESIDADE GRAVE
+- ` < 18.5  => MAGREZA`
+- ` >= 18.5 < 25 => NORMAL`
+- ` >= 25 < 30 => SOBREPESO`
+- ` >= 30 < 40 => OBESIDADE`
+- ` >40 => OBESIDADE GRAVE`
 
 ## Limits
 
