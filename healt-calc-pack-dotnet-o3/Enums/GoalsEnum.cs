@@ -10,6 +10,7 @@ namespace healt_calc_pack_dotnet_o3.Enums
     {
         GanhoMassaMuscular = 0,
         PerdaPeso = 1,
-        ManterPeso = 2
+        ManterPeso = 2,
+        Outro = 3
     }
 }

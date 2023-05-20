@@ -11,6 +11,7 @@ namespace healt_calc_pack_dotnet_o3
 {
     public class MacroNutrients : IMacroNutrients
     {
+        const double ZERO = 0;
         const double ONE = 1.0;
         const double TWO = 2.0;
         const double THREE = 3.0;
@@ -43,7 +44,12 @@ namespace healt_calc_pack_dotnet_o3
                 default:
                     break;
             }
-            return new MacroNutrientsModel();
+            return new MacroNutrientsModel
+            {
+                carboidratos = ZERO * weight,
+                proteinas = ZERO * weight,
+                gorduras = ZERO * weight
+            };
         }
     }
 }

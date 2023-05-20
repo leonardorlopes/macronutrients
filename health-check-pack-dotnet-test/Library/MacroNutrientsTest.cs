@@ -17,6 +17,7 @@ namespace health_check_pack_dotnet_test.Library
         [InlineData(104.30, GoalsEnum.PerdaPeso, 312.9, 417.2, 312.9)]
         [InlineData(60.0, GoalsEnum.GanhoMassaMuscular, 240.0, 120.0, 60.0)]
         [InlineData(104.30, GoalsEnum.ManterPeso, 417.2, 417.2, 208.6)]
+        [InlineData(104.30, GoalsEnum.Outro, 0, 0, 0)]
         public void CalculaMacronutrientes_Quando_DadosValidos_Entao_RetornaMacronutrientes(double weight, GoalsEnum goal,
             double expCarboidratos, double expProteinas, double expGorduras)
         {

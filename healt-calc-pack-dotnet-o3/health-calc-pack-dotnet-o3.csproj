@@ -5,15 +5,23 @@
     <RootNamespace>healt_calc_pack_dotnet_o3</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageIcon>icon.png</PackageIcon>
+    <PackageIcon>docs\iconimg.png</PackageIcon>
     <RepositoryUrl>https://github.com/leonardorlopes/macronutrients</RepositoryUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Leonardo Rodrigues Lopes de Souza</Authors>
     <Description>Library IMC and Macronutrientes calc.</Description>
+    <ApplicationIcon>docs\icon.ico</ApplicationIcon>
+    <Product>dotnet-imc-leo</Product>
+    <PackageId>dotnet-imc-leo</PackageId>
+    <SignAssembly>False</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="docs\icon.png">
+    <Content Include="docs\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>   
+    <None Update="docs\iconimg.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
